@@ -1,0 +1,27 @@
+root {
+  width: '100%';
+  text-align: center;
+}
+
+.side-nav {
+  width: 20%;
+  float: right;
+}
+
+.destination-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.destination-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vehicle-container {
+  padding: 20px 0;
+  text-align: left;
+}
